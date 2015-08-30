@@ -103,7 +103,7 @@ function start (callback) {
           // Be sure to change the PURPOSE to be the name of your app
           var mongoChild = childProcess.spawn(mongodPath, mongodArgs, {
             env: {
-              PURPOSE: 'MY_ELECTROMETEOR_APP'
+              PURPOSE: 'offlineJira'
             }
           });
 
@@ -204,8 +204,8 @@ app.on('ready', function () {
     };
     // Create the browser window.
     var windowOptions = {
-      width: 800,
-      height: 600,
+      width: 1024,
+      height: 768,
       resizeable: true,
       frame: true
     };
