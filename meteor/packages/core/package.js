@@ -10,7 +10,9 @@ Package.onUse(function(api) {
   api.versionsFrom('1.1.0.2');
 
   api.use([
-    'gfk:mediator@1.0.0'
+    'gfk:mediator@1.0.0',
+    'kadira:flow-router@2.4.0',
+    'kadira:blaze-layout'
   ]);
 
   api.addFiles([
