@@ -1,0 +1,1 @@
+Core.mediator = new Mediator();
